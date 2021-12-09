@@ -1,0 +1,22 @@
+[
+  {
+    "libelle": "Lait",
+    "prix": 1.99
+  },
+  {
+    "libelle": "Farine",
+    "prix": 0.99
+  },
+  {
+    "libelle": "Sucre",
+    "prix": 0.99
+  },
+  {
+    "libelle": "Levure",
+    "prix": 1.59
+  },
+  {
+    "libelle": "Oeuf",
+    "prix": 2.99
+  }
+]
