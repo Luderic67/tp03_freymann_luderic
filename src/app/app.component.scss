@@ -9,25 +9,28 @@
   font-size: 14px;
   color: #000;
   box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  flex: 1;
+  display: flex;
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
   flex: 1;
+  overflow-y: auto;
 }
 
 .content {
-  margin-top: 60px;
+  box-sizing: border-box;
+  padding-top: 60px;
+  padding-bottom: 20px;
   display: flex;
   flex: 1;
   align-items: center;
   justify-content: center;
-  overflow-y: auto;
 
   &-container {
     max-width: 1400px;
     width: 100%;
-    padding: 0 2rem;
   }
 }
