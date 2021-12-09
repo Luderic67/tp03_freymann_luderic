@@ -1,0 +1,54 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+
+  .form-group {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .form-label {
+    margin-bottom: 0.2rem;
+  }
+
+  .form-button {
+    border: none;
+    border-radius: 5px;
+    line-height: 1.2em;
+    padding: 1rem;
+    border: 1px solid rgba(66, 66, 255, 1);
+    background: rgba(66, 66, 255, 1);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    font-size: 1rem;
+
+    &:hover {
+      background: white;
+      color: rgba(66, 66, 255, 1);
+      border: 1px solid lightgray;
+    }
+  }
+
+  .form-error {
+    color: red;
+    margin-top: 0.2rem;
+  }
+
+  span {
+    color: rgba(66, 66, 255, 1);
+  }
+
+  input,
+  select {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    line-height: 1.2em;
+    padding: 0.5rem;
+  }
+}

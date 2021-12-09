@@ -1,0 +1,19 @@
+<div
+  class="resume-container"
+  [ngStyle]="{ display: show_resume ? 'flex' : 'none' }"
+>
+  <h3>Voici le resumé</h3>
+  <ul>
+    <li><b>Nom :</b> {{ lastname }}</li>
+    <li><b>Prénom :</b> {{ firstname }}</li>
+    <li><b>Adresse :</b> {{ address }}</li>
+    <li><b>Code postal :</b> {{ cp }}</li>
+    <li><b>Ville :</b> {{ city }}</li>
+    <li><b>Pays :</b> {{ country }}</li>
+    <li><b>Téléphone :</b> {{ phone | phonePipe: country }}</li>
+    <li><b>Civilité :</b> {{ civ }}</li>
+    <li><b>Email :</b> {{ email }}</li>
+    <li><b>Login :</b> {{ login }}</li>
+    <li><b>Password :</b> {{ password }}</li>
+  </ul>
+</div>
