@@ -1,10 +1,22 @@
 <div class="main">
-  <app-tetiere></app-tetiere>
+  <app-header></app-header>
   <div class="content">
     <div class="content-container">
-      <!-- <app-formulaire (redirect)="parent_data = $event"></app-formulaire>
-      <app-resume [data]="parent_data"></app-resume> -->
-      <app-catalog></app-catalog>
+      <div class="card">
+        <input class="scroll_target" id="form_card" />
+        <h2>FORM</h2>
+        <app-form (redirect)="form_data = $event"></app-form>
+      </div>
+      <div class="card">
+        <h2>RESUME</h2>
+        <input class="scroll_target" id="resume_card" />
+        <app-resume [data]="form_data"></app-resume>
+      </div>
+      <div class="card">
+        <h2>LIST</h2>
+        <app-list></app-list>
+        <input class="scroll_target" id="list_card" />
+      </div>
     </div>
   </div>
   <app-footer></app-footer>

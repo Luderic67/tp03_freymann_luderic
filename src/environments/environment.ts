@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'assets/mock/catalog.json',
+  baseUrl: 'assets/mock/list.json',
 };
 
 /*

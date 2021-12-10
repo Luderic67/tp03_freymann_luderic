@@ -1,9 +1,0 @@
-<label for="filter">Filtre : </label>
-<input
-  type="text"
-  name="filter"
-  id="filter"
-  [(ngModel)]="filter"
-  (input)="handleFilter()"
-/>
-<app-catalog-item *ngFor="let item of items" [item]="item"></app-catalog-item>

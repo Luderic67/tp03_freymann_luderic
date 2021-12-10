@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+/* Fonts */
+@font-face {
+  font-family: "Poppins-Regular";
+  src: local("Poppins-Regular"),
+    url(./assets/fonts/Poppins-Regular.ttf) format("ttf");
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
@@ -19,9 +26,14 @@
   background: rgba(0, 0, 0, 0.9);
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   width: 100vw;
   height: 100vh;
   margin: 0;
   display: flex;
+  font-family: "Poppins-Regular", sans-serif;
 }

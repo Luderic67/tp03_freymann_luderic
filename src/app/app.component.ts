@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { from, interval } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +6,6 @@ import { from, interval } from 'rxjs';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  parent_data: any;
-  title = 'tp03-freymann-luderic';
+  title = 'luderic-freymann-app';
+  form_data: any;
 }
